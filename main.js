@@ -42,7 +42,7 @@
 					// Append The Text  Url 
 					theUrl.append(theUrlText);
 					// Add URL the text
-					theUrl.href=`https://api.github.com/users/${theInput.value}/${repo.name}`;
+					theUrl.href=`https://${theInput.value}.github.io/${repo.name}`;
 					// Set Attribute Blank
 					theUrl.setAttribute('target','_blank')
 					
